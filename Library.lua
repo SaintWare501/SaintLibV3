@@ -36,7 +36,7 @@ local Library = {
     OutlineColor = Color3.fromRGB(50, 50, 50);
     RiskColor = Color3.fromRGB(255, 50, 50),
 
-    Black = Color3.new(0, 0, 0);
+    Black = Color3.new(255, 255, 255);
     Font = Enum.Font.Code,
 
     OpenedFrames = {};
@@ -3528,7 +3528,6 @@ function Library:CreateWindow(...)
                 local Cursor = Drawing.new('Triangle');
                 Cursor.Thickness = 1;
                 Cursor.Filled = true;
-                Cursor.Color = Color3.new(255, 255, 255);
                 Cursor.Visible = true;
 
                 local CursorOutline = Drawing.new('Triangle');
